@@ -1,0 +1,132 @@
+.fondo{
+    background-color: #e9ecef;
+    font-family: inherit;
+}
+.navbar{
+   width: 100%;
+   background-color: none;
+}
+h1{
+    font-size: 65px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.container-fluid{
+    margin-top: 120px;
+    margin-left: 70px;
+    width: 85%;
+}
+
+.btn-primary{
+    width: 147px;
+    height: 45px;
+}
+
+.texto{
+    margin-top: 76px;
+    padding-top: 42px;
+    padding-left: 91px;
+}
+
+.text1{
+    display: block;
+    width: 100%;
+    margin-right: 27px;
+}
+.text2{
+    display: block;
+    width: 100%;
+    margin-right: 27px;
+}
+.text3{
+    display: block;
+    width: 100%;
+}
+
+.fin{
+    margin-top: 46px;
+}
+
+@media only screen and (max-width: 799px){
+    .fondo{
+        width: 760px;
+    }
+    .container-fluid{
+        margin-left: 100px;
+        width: 75%;
+    }
+
+    .text1{
+        width: 77%;
+        margin-left: 23px;
+    }
+    .text2{
+        width: 77%;
+        margin-left: 23px;
+        margin-top: 20px;
+    }
+    .text3{
+        width: 77%;
+        margin-left: 23px;
+        margin-top: 20px;
+    }
+    .fin{
+        margin-left: 22px;
+    }
+}
+
+@media only screen and (min-width: 800px){
+    .fondo{
+        width: 900px;
+    }
+    .container-fluid{
+        margin-top: 120px;
+        margin-left: 70px;
+        width: 75%;
+    }
+    .texto{
+        margin-top: 76px;
+        padding-top: 42px;
+        padding-left: 91px;
+    }
+    .text1{
+        display: inline-block;
+        width: 23%;
+        margin-right: 27px;
+        margin-left: 0px;
+    }
+    .text2{
+        display: inline-block;
+        width: 23%;
+        margin-right: 27px;
+        margin-left: 0px;
+    }
+    .text3{
+        display: inline-block;
+        width: 23%;
+        margin-left: 0px;
+    }
+}
+@media only screen and (min-width: 1025px){
+    .fondo{
+        width: 100%;
+    }
+    .container-fluid{
+        width: 85%;
+    }
+    
+    .text1{
+     
+        width: 27%;
+
+    }
+    .text2{
+        width: 27%;
+
+    }
+    .text3{
+  
+        width: 27%;
+
+    }
+}
